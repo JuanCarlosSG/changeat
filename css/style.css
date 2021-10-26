@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chicle&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rampart+One&display=swap");
+* {
+  font-family: "Chicle", sans-serif;
+}
+
+body {
+  background-color: #3db2ff;
+  height: 100vh;
+}
+
+#banner {
+  background-color: #3db2ff;
+  color: #f3d9b1;
+  height: 100%;
+}
+
+#banner h1 {
+  font-family: "Lobster", cursive;
+  text-shadow: gray 2px 5px;
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  padding: 90px 0px 10px 0;
+}
+
+#banner p {
+  color: white;
+  font-size: 30px;
+  background-color: #3db2ff;
+}
+
+#banner img {
+  padding: 60px 0px 10px 0;
+  max-height: 500px;
+  max-width: 200%;
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+img {
+  max-width: 900px;
+  margin: auto;
+  display: block;
+}
+
+div {
+  padding: 15px;
+}
+
+.btn {
+  background-color: #a22522;
+  color: #c29979;
+}
+/*botones reistrate*/
+#container p {
+  font-size: 20px;
+  text-align: center;
+}
+
+#container a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(245, 71, 72, 1);
+  padding: 5px;
+  display: block;
+  margin: 5px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#container a:hover {
+  background-color: rgba(255, 204, 41, 1);
+}
+
+/*Navbar*/
+nav.navbar {
+  background-color: #343f56;
+  width: 100%;
+  position: fixed;
+}
+
+/*Footer*/
+footer {
+  background-color: #343f56;
+  padding: 0px 20px 5px 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ede0db;
+  font-size: 25px;
+}
+
+/* .botones_footer {
+  height: 10px;
+}
+.social_footer_ul {
+  display: table;
+  margin: auto;
+  list-style-type: none;
+  text-decoration: none;
+}
+.social_footer_ul li {
+  padding-left: 20px;
+  padding-top: 0.01px;
+  float: left;
+}
+.social_footer_ul li a {
+  color: #cd87cd;
+  border: 1px solid #cd87cd;
+  padding: 7px;
+  border-radius: 30%;
+}
+.social_footer_ul li i {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+} */
+
+.float-container {
+  padding: 10px;
+}
+
+.float-child {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.info_contact h2 {
+  text-shadow: gray 2px 5px;
+  font-size: 50px;
+}
+
+.info_contact p {
+  font-size: 25px;
+}
+
+.title #contenido {
+  padding: 30px;
+  padding-left: 350px;
+  font-size: 20px;
+}
+.title img {
+  max-width: 70%;
+  max-height: 70%;
+}

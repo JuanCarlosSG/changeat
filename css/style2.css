@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Chicle&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Rampart+One&display=swap");
+
+* {
+  font-family: "Chicle", sans-serif;
+}
+
+#banner h4 {
+  font-family: "Lobster", cursive;
+  text-shadow: gray 2px 5px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+#banner ul {
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  background-color: #3db2ff;
+  color: #f3d9b1;
+}
+#banner {
+  background-color: #3db2ff;
+  color: #f3d9b1;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+#objetivos img {
+  max-width: 900px;
+  margin: auto;
+  display: block;
+}
+
+div {
+  padding: 15px;
+}
+
+.btn {
+  background-color: #a22522;
+  color: #c29979;
+}
+
+footer {
+  background-color: #343f56;
+  padding: 0px 20px 5px 30px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ede0db;
+  position: fixed;
+
+  font-size: 25px;
+}
+
+.float-container {
+  padding: 10px;
+}
+
+.float-child {
+  width: 20%;
+  float: left;
+  padding: 10px;
+  text-align: center;
+}
+
+nav.navbar {
+  background-color: #343f56;
+}
